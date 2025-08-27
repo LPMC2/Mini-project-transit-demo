@@ -10,7 +10,7 @@ import ui_base from "../images/ui_base.png"
 const Home = () => {
   const [selectedSection, setSelectedSection] = useState(null);
 
-  const handleButtonClick = (section) => {
+  const handleButtonClick = (section : any) => {
     setSelectedSection(section);
   };
 
